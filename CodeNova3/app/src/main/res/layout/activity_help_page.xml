@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sdfsfsfsfsfsf"
+    tools:context=".med_treat">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardInputAlt"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="30dp"
+            android:layout_gravity="center"
+            app:cardElevation="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_deg"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Congenital heart disease (CHD) is a condition where a child is born with a problem in the structure of the heart. This may include holes in the heart, narrow blood vessels, or problems with heart valves. CHD happens while the baby is developing during pregnancy and is not caused by anything the parents did.\n\n"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color3"
+                android:fontFamily="sans-serif-black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Some children with CHD have mild problems and grow normally, while others may have more serious conditions that need medicines, special feeding, or surgery. Children with CHD may:\n\n"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color3"
+                android:fontFamily="sans-serif-black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="1-)Get tired easily"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color3"
+                android:fontFamily="sans-serif-black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="2-)Breathe faster"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color3"
+                android:fontFamily="sans-serif-black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="3-)Have trouble feeding or gaining weight"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color3"
+                android:fontFamily="sans-serif-black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="4-)Sweat during feeding or crying\n\n\n\n"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color3"
+                android:fontFamily="sans-serif-black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Formula mixes are specially prepared nutritional products designed to meet the increased energy and nutrient needs of children who require additional support for growth and development. These formulas provide concentrated calories, high-quality protein, and essential vitamins and minerals in an easy-to-digest form. Formula mixes can be adjusted in concentration and composition to suit individual feeding needs, helping ensure adequate nutrition when regular feeding alone may not be sufficient. They play an important role in supporting healthy growth, strength, and overall development in children.\n\n\n\n"
+                android:textSize="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color3"
+                android:fontFamily="sans-serif-black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Standard Concentrated Formula Mixes\n\n\n\n"
+                android:textSize="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color3"
+                android:fontFamily="sans-serif-black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="For 22 kcal/oz: "
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color3"
+                android:fontFamily="sans-serif-black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="✦Water: 105 mL"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color3"
+                android:fontFamily="sans-serif-black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="✦Formula powder: 2 level scoops"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color3"
+                android:fontFamily="sans-serif-black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="✦Final volume: ~120 mL\n\n"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color3"
+                android:fontFamily="sans-serif-black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="For 24 kcal/oz"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color3"
+                android:fontFamily="sans-serif-black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="✦Water: 150 mL"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color3"
+                android:fontFamily="sans-serif-black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="✦Formula powder: 3 level scoops"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color3"
+                android:fontFamily="sans-serif-black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="✦Final volume: ~165 mL\n\n"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color3"
+                android:fontFamily="sans-serif-black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="For 27 kcal/oz"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color3"
+                android:fontFamily="sans-serif-black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="✦Water: 210 mL"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color3"
+                android:fontFamily="sans-serif-black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="✦Formula powder: 5 level scoops"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color3"
+                android:fontFamily="sans-serif-black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="✦Final volume: ~240 mL\n\n"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color3"
+                android:fontFamily="sans-serif-black"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="And here are some links for CHD"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color3"
+                android:fontFamily="sans-serif-black"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textView"
+                android:layout_marginTop="15dp"
+                android:layout_margin="15dp"
+                android:columnCount="2"
+                android:rowCount="6">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill"
+                    android:outlineSpotShadowColor="@color/black"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:gravity="center"
+
+                        android:orientation="vertical">
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColorLink="@color/white"
+                            android:background="@color/white"
+                            android:layout_gravity="fill_vertical"
+                            android:textColorHint="@color/white"
+                            android:gravity="center"
+                            android:textColor="@color/color3"
+                            android:text="Head to toe video"
+                            android:id="@+id/btn_toe"/>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill"
+                    android:outlineSpotShadowColor="@color/black"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:gravity="center"
+
+                        android:orientation="vertical">
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColorLink="@color/white"
+                            android:background="@color/white"
+                            android:layout_gravity="fill_vertical"
+                            android:textColorHint="@color/white"
+                            android:gravity="center"
+
+                            android:textColor="@color/color3"
+
+                            android:text="medicine tutorial"
+                            android:id="@+id/btn_tot"/>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

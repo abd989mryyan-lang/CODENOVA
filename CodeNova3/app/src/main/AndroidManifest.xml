@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <activity
+            android:name=".splash_screen"
+            android:exported="true"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".video_upload"
+            android:exported="true" />
+        <activity
+            android:name=".Track_your_child_feeding"
+            android:exported="true" />
+        <activity
+            android:name=".Track_your_child_wegit"
+            android:exported="true" />
+        <activity
+            android:name=".Track_your_child_PO"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_main_please_work"
+            android:exported="true" />
+        <activity
+            android:name=".Track_your_child_BP"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_insert_contllue"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Help_page"
+            android:exported="true" />
+        <activity
+            android:name=".mendedhearts_recycleview"
+            android:exported="true" />
+        <activity
+            android:name=".email_copy_recycleview"
+            android:exported="true" />
+        <activity
+            android:name=".hospital_showers_recycleview"
+            android:exported="true" />
+        <activity
+            android:name=".videos_of_defects_recycleview"
+            android:exported="true" />
+        <activity
+            android:name=".hewn_recycleview"
+            android:exported="true" />
+        <activity
+            android:name=".drain_care_recycleview"
+            android:exported="true" />
+        <activity
+            android:name=".wonund_care_recycleview"
+            android:exported="true" />
+        <activity
+            android:name=".med_treat"
+            android:exported="true" />
+        <activity
+            android:name=".patientstores_recycleview"
+            android:exported="true" />
+        <activity
+            android:name=".lhwmwl_recycleview"
+            android:exported="true" />
+        <activity
+            android:name=".contres_email_recycleview"
+            android:exported="true" />
+        <activity
+            android:name=".contrese_phone_recycleview"
+            android:exported="true" />
+        <activity
+            android:name=".contllu_phone_recycleview"
+            android:exported="true" />
+        <activity
+            android:name=".contllu_email_recycleview"
+            android:exported="true" />
+        <activity
+            android:name=".lhwmi_recycle_view"
+            android:exported="true" />
+        <activity
+            android:name=".user_recycle_view"
+            android:exported="true"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".Contacts_activity"
+            android:exported="true" />
+        <activity
+            android:name=".personal_contacts"
+            android:exported="true" />
+        <activity
+            android:name=".devotionals_videos"
+            android:exported="true" />
+        <activity
+            android:name=".PatientStoriesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".support_groups"
+            android:exported="true" />
+        <activity
+            android:name=".signin_activity"
+            android:exported="true"
+            android:label="@string/title_activity_signin"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".care_giver_support"
+            android:exported="true"
+            android:label="care_giver_support_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Little_heart_warrior"
+            android:exported="true"
+            android:label="little_heart_wariiror"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".contllu_email_user"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".devotionals"
+            android:exported="true" />
+        <activity
+            android:name=".resources"
+            android:exported="true" />
+        <activity
+            android:name=".spiritual_needs"
+            android:exported="true" />
+        <activity
+            android:name=".signup"
+            android:exported="true" />
+        <activity
+            android:name=".Chd_treatment"
+            android:exported="true" />
+        <activity
+            android:name=".child_chd_treatment_A"
+            android:exported="true" />
+        <activity
+            android:name=".discharge_information"
+            android:exported="true" />
+        <activity
+            android:name=".Tutorials_for_child_care_needs"
+            android:exported="true" />
+        <activity
+            android:name=".general_child_care_information"
+            android:exported="true" />
+        <activity
+            android:name=".Track_your_child"
+            android:exported="true" />
+        <activity
+            android:name=".hospital_information"
+            android:exported="true" />
+        <activity
+            android:name=".email_website_phone_page"
+            android:exported="true" />
+        <activity
+            android:name=".email_website_phone_page"
+            android:exported="true" />
+        <activity
+            android:name=".lhwfb_recycle_view"
+            android:exported="true" />
+        <activity
+            android:name=".contres_website_recycleview"
+            android:exported="true" />
+    </application>
+
+</manifest>

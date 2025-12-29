@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@color/color4"
+    tools:context=".med_treat">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sdfsfsfsfsfsf">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardInputAlt"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="30dp"
+        android:layout_gravity="center"
+        app:cardElevation="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_deg"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Medication Treatment\n\n\n\n"
+            android:textSize="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color3"
+            android:fontFamily="sans-serif-black"
+            android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Common Medication Classes for CHD:"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/color3"
+        android:fontFamily="sans-serif-black"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="1-Diuretics Water Pills: Reduce excess body fluid, lowering strain on the heart e.g., Furosemide, Spironolactone.\n\n"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/color3"
+        android:fontFamily="sans-serif-black"
+        android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="2-Blood Pressure Medications: \n\n"
+            android:textSize="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color3"
+            android:fontFamily="sans-serif-black"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="A-) ACE Inhibitors (Angiotensin-Converting Enzyme Inhibitors): Relax blood vessels, improving flow (e.g., Lisinopril, Enalapril).\n\n"
+            android:textSize="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color3"
+            android:fontFamily="sans-serif-black"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="B-) ARBs (Angiotensin II Receptor Blockers): Similar to ACE inhibitors (e.g., Losartan).\n\n"
+            android:textSize="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color3"
+            android:fontFamily="sans-serif-black"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="C-) Beta-Blockers: Slow the heart rate and reduce its force (e.g., Metoprolol, Carvedilol).\n\n"
+            android:textSize="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color3"
+            android:fontFamily="sans-serif-black"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="D-) Calcium Channel Blockers: Relax blood vessels and heart muscle.\n\n"
+            android:textSize="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color3"
+            android:fontFamily="sans-serif-black"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="2- Heart Rhythm Drugs (Antiarrhythmics): Control irregular heartbeats (e.g., Digoxin, Amiodarone).\n\n"
+            android:textSize="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color3"
+            android:fontFamily="sans-serif-black"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="3- Anticoagulants and Antiplatelets: Prevent blood clots (e.g., Aspirin, Warfarin, Heparin).\n\n"
+            android:textSize="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color3"
+            android:fontFamily="sans-serif-black"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="4- Inotropes: Strengthen heart muscle contractions (e.g., Digoxin).\n\n"
+            android:textSize="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color3"
+            android:fontFamily="sans-serif-black"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="5- Specific Medications:"
+            android:textSize="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color3"
+            android:fontFamily="sans-serif-black"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="A-) Prostaglandins: Keep certain blood vessels open (e.g., for defects like coarctation of the aorta or pulmonary atresia).\n\n"
+            android:textSize="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color3"
+            android:fontFamily="sans-serif-black"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="B-) Ibuprofen/Indomethacin: Can help close patent ductus arteriosus (PDA) in newborns.\n\n"
+            android:textSize="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color3"
+            android:fontFamily="sans-serif-black"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sdfsfsfsfsfsf"
+    android:padding="16dp">
+
+    <!-- INPUT CARD -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardInputAlt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_deg"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/txtHeaderAlt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feeding"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/color3"
+                android:layout_marginBottom="20dp"/>
+
+            <EditText
+                android:id="@+id/inputStringAlt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_deg"
+                android:hint="Enter text here"
+                android:paddingLeft="25dp"
+                android:textColor="@color/color3"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/btnSaveAlt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Save Text"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_login"
+                android:backgroundTint="@color/color3" />
+
+            <Button
+                android:id="@+id/btnReadAlt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Load Text"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_login"
+                android:backgroundTint="@color/color3" />
+
+            <Button
+                android:id="@+id/btnRemoveAlt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Delete File"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_login"
+                android:backgroundTint="@color/color3" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- LIST CARD -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardListAlt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_deg"
+            android:padding="10dp">
+
+            <ListView
+                android:id="@+id/listTextAlt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

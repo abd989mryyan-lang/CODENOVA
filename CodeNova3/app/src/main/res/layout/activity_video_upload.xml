@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/sdfsfsfsfsfsf"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardInputAlt"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="30dp"
+        android:layout_gravity="center"
+
+        app:cardElevation="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_deg"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/kl200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload files"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/color3"
+                android:layout_margin="20dp"
+                />
+            <EditText
+                android:id="@+id/admin_name_file"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_text_deg"
+
+                android:drawablePadding="8dp"
+                android:hint="Name File"
+                android:paddingLeft="25dp"
+                android:textColor="@color/color3"/>
+    <Button
+        android:id="@+id/btnSelectVideo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_login"
+        android:backgroundTint="@color/color3"
+        android:textColor="@color/white"
+        android:text="Select Video" />
+
+    <Button
+        android:id="@+id/btnUploadVideo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_login"
+        android:backgroundTint="@color/color3"
+        android:textColor="@color/white"
+        android:text="Upload Video" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="20dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
